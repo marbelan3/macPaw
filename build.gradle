@@ -1,0 +1,67 @@
+plugins {
+    id 'io.qameta.allure' version "2.5"
+}
+
+import io.qameta.allure.gradle.task.AllureReport
+
+task allureAggregatedReport(type: AllureReport) {
+    resultsDirs = subprojects.allure.resultsDir
+}
+
+//task wrapper(type: Wrapper) {
+//    gradleVersion = '4.6'
+//}
+
+group 'macPaw'
+
+subprojects {
+
+    apply plugin: 'io.qameta.allure'
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    [compileJava, compileTestJava]*.options.collect { options -> options.encoding = 'UTF-8' }
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+
+
+    dependencies {
+        compile(
+                "junit:junit:4.12",
+                "pl.pragmatists:JUnitParams:1.1.1",
+                "org.slf4j:slf4j-nop:1.7.22"
+        )
+    }
+
+    allure {
+        autoconfigure = true
+        configuration = "compile"
+        version = '2.7.0'
+    }
+
+    tasks.withType(Test) {
+        testTask ->
+
+            testTask.reports.junitXml.enabled = true
+            testTask.reports.html.enabled = false
+            testTask.testLogging.showStackTraces = true
+            testTask.testLogging.exceptionFormat = 'full'
+            testTask.testLogging.showStandardStreams = true
+            testTask.maxParallelForks = 6
+            testTask.forkEvery = 1
+            testTask.systemProperties(
+                    'allure.max.title.length': 250,
+                    'taskname': System.properties['taskname']
+            )
+            testTask.outputs.upToDateWhen { false }
+    }
+
+}
+

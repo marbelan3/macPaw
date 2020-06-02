@@ -1,0 +1,5 @@
+rootProject.name = 'macPaw'
+include 'core_ui'
+include 'core_ui_module'
+include 'ui_tests_module'
+

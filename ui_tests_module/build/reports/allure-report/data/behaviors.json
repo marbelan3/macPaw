@@ -1,0 +1,17 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "RozetkaSearchTest(Apple iPhone 11 Pro) [0]",
+    "uid" : "5f8adedcdcaa40dc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1591099261559,
+      "stop" : 1591099322547,
+      "duration" : 60988
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

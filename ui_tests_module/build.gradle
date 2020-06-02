@@ -1,0 +1,9 @@
+dependencies {
+    compile project(':core_ui_module')
+}
+
+task rozetka(type: Test) {
+
+    include('rozetkaUiTests/RozetkaUi.class')
+    maxParallelForks = 2
+}

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "5f8adedcdcaa40dc",
+  "name" : "RozetkaSearchTest(Apple iPhone 11 Pro) [0]",
+  "time" : {
+    "start" : 1591099261559,
+    "stop" : 1591099322547,
+    "duration" : 60988
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

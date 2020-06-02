@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rozetkaUiTests.RozetkaUi" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-02T12:01:01" hostname="DESKTOP-A4N47S8" time="61.141">
+  <properties/>
+  <testcase name="RozetkaSearchTest(Apple iPhone 11 Pro) [0]" classname="rozetkaUiTests.RozetkaUi" time="61.141"/>
+  <system-out><![CDATA[295f19a18957426682f384f15a31fbb2
+Request method:	POST
+Request URI:	https://my.rozetka.com.ua/profile/personal-information/edit/%26action%3DremoveAccount
+Proxy:			<none>
+Request params:	removeAccount=1
+				remove_reason=Test
+				request_token=rB4eB17WP4m0DSB1CCRVAg==
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=text/javascript, text/html, application/xml, text/xml, */*
+				Referer=https://my.rozetka.com.ua/ua/?utm_source=dm&utm_medium=email&utm_campaign=welcome-letter&utm_content=confirm&utm_term=general-info
+				ajaxAction=https://my.rozetka.com.ua/profile/personal-information/edit/#removeAccount
+				X-Requested-With=XMLHttpRequest
+				User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		ho_sid=1
+				slang=ua
+				uid=rB4eB17WP4m0DSB1CCRVAg==
+				ab_xl=xl
+				ab_xl_uid=uid=071E1EAC893FD65E75200DB402552408
+				sections_test=monolith
+				login=christopherwood_33566%40rcmails.com
+				sid=5e4e37658340543b21d89a6b6c3df2d1
+				gauid=236723053
+Body:			<none>
+200
+]]></system-out>
+  <system-err><![CDATA[черв. 02, 2020 3:01:01 PM browser.BaseBrowserInit <clinit>
+INFO: Initialization BaseBrowserInit class
+черв. 02, 2020 3:01:01 PM browser.BaseBrowserInit beforeBaseUiClass
+INFO: Windows 10
+черв. 02, 2020 3:01:01 PM helpers.UserForTest <init>
+INFO: UserForTest : 
+EMAIL = christopherwood_33566@rcmails.com 
+PASSWORD = PaiXPPhTi7 
+USER_NAME = Александр_Поларуш
+черв. 02, 2020 3:01:01 PM rozetkaUiTests.RozetkaUi RozetkaSearchTest
+INFO: Product for search is : Apple iPhone 11 Pro
+черв. 02, 2020 3:01:01 PM com.codeborne.selenide.drivercommands.LazyDriver getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 11 - let's create a new webdriver
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 15118
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+черв. 02, 2020 3:01:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+черв. 02, 2020 3:01:12 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=83.0.4103.61 Platform=WINDOWS
+черв. 02, 2020 3:01:12 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.2.2
+черв. 02, 2020 3:01:12 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+черв. 02, 2020 3:01:12 PM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 11: ChromeDriver -> ChromeDriver: chrome on WINDOWS (264de33ffa76a282d4538848d865237e)
+черв. 02, 2020 3:01:12 PM com.codeborne.selenide.drivercommands.CreateDriverCommand addListeners
+INFO: Add listener to webdriver: helpers.CustomEventListener@6ece6d6c
+черв. 02, 2020 3:01:13 PM helpers.AllureUIUtil captureCurrentUrl_aroundBody8
+INFO: Current url: https://rozetka.com.ua/ua/
+черв. 02, 2020 3:01:32 PM tempMailApi.TempMail stringToMD5Hash_aroundBody2
+INFO: Mail hash is: 295f19a18957426682f384f15a31fbb2
+черв. 02, 2020 3:01:37 PM tempMailApi.TempMail getLinkForApprove_aroundBody6
+INFO: Link for approve: https://my.rozetka.com.ua/authorize/?skey=f94f36796&amp;uid=236723053&amp;url=https%3A%2F%2Fmy.rozetka.com.ua%2Fconfirm-email%2F%3Futm_source%3Ddm%26utm_medium%3Demail%26utm_campaign%3Dwelcome-letter%26uid%3D236723053%26code%3Dda64f2da%26action%3DconfirmEmail%26utm_term%3Dgeneral-info%26utm_content%3Dconfirm
+черв. 02, 2020 3:01:39 PM helpers.AllureUIUtil captureCurrentUrl_aroundBody8
+INFO: Current url: https://my.rozetka.com.ua/ua/?utm_source=dm&utm_medium=email&utm_campaign=welcome-letter&utm_content=confirm&utm_term=general-info
+черв. 02, 2020 3:01:42 PM helpers.RequiredAssertMessagesByLanguage getMessageByLang_aroundBody0
+INFO: Message to assert : Адресу електронної пошти підтверджено, дякуємо
+черв. 02, 2020 3:01:57 PM rozetkaModelsPages.RecommendationsProductsPage choseFirstProductAndSetPriceToObj_aroundBody2
+INFO: Price from first recommendation product : 39 999
+черв. 02, 2020 3:02:01 PM helpers.RemoveUserByRestAssured removeRozetkaAccount
+INFO: User account has been deleted
+]]></system-err>
+</testsuite>

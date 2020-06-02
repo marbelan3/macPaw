@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "rozetkaUiTests",
+    "children" : [ {
+      "name" : "RozetkaSearchTest(Apple iPhone 11 Pro) [0]",
+      "uid" : "5f8adedcdcaa40dc",
+      "parentUid" : "859189cedde0f6550e4c9e7c529f54f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591099261559,
+        "stop" : 1591099322547,
+        "duration" : 60988
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "859189cedde0f6550e4c9e7c529f54f0"
+  } ]
+}

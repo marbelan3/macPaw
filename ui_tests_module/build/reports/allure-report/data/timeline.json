@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-A4N47S8",
+    "children" : [ {
+      "name" : "13560@DESKTOP-A4N47S8.Test worker(11)",
+      "children" : [ {
+        "name" : "RozetkaSearchTest(Apple iPhone 11 Pro) [0]",
+        "uid" : "5f8adedcdcaa40dc",
+        "parentUid" : "a3691d78d51455d587cf36b9330fc505",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591099261559,
+          "stop" : 1591099322547,
+          "duration" : 60988
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3691d78d51455d587cf36b9330fc505"
+    } ],
+    "uid" : "6301398e13e7e87d0e355b1f74ed242a"
+  } ]
+}
