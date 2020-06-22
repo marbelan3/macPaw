@@ -4,21 +4,21 @@
   "children" : [ {
     "name" : "DESKTOP-A4N47S8",
     "children" : [ {
-      "name" : "13560@DESKTOP-A4N47S8.Test worker(11)",
+      "name" : "13428@DESKTOP-A4N47S8.Test worker(11)",
       "children" : [ {
         "name" : "RozetkaSearchTest(Apple iPhone 11 Pro) [0]",
-        "uid" : "5f8adedcdcaa40dc",
-        "parentUid" : "a3691d78d51455d587cf36b9330fc505",
+        "uid" : "a545daeec1676485",
+        "parentUid" : "539ef366405ed4be7125be63d900ef9b",
         "status" : "passed",
         "time" : {
-          "start" : 1591099261559,
-          "stop" : 1591099322547,
-          "duration" : 60988
+          "start" : 1592818395893,
+          "stop" : 1592818463569,
+          "duration" : 67676
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a3691d78d51455d587cf36b9330fc505"
+      "uid" : "539ef366405ed4be7125be63d900ef9b"
     } ],
     "uid" : "6301398e13e7e87d0e355b1f74ed242a"
   } ]

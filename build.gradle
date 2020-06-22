@@ -58,7 +58,8 @@ subprojects {
             testTask.forkEvery = 1
             testTask.systemProperties(
                     'allure.max.title.length': 250,
-                    'taskname': System.properties['taskname']
+                    'taskname': System.properties['taskname'],
+                    'envDomain': System.properties['envDomain']
             )
             testTask.outputs.upToDateWhen { false }
     }

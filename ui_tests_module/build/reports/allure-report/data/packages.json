@@ -5,13 +5,13 @@
     "name" : "rozetkaUiTests",
     "children" : [ {
       "name" : "RozetkaSearchTest(Apple iPhone 11 Pro) [0]",
-      "uid" : "5f8adedcdcaa40dc",
+      "uid" : "a545daeec1676485",
       "parentUid" : "859189cedde0f6550e4c9e7c529f54f0",
       "status" : "passed",
       "time" : {
-        "start" : 1591099261559,
-        "stop" : 1591099322547,
-        "duration" : 60988
+        "start" : 1592818395893,
+        "stop" : 1592818463569,
+        "duration" : 67676
       },
       "flaky" : false,
       "parameters" : [ ]

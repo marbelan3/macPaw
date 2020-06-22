@@ -5,6 +5,7 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.junit.TextReport;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import envirnoment.TestEnvironment;
 import helpers.CustomEventListener;
 import helpers.ReportWatcher;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -18,9 +19,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class BaseBrowserInit {
+
+
     static {
         Logger.getGlobal().log(Level.INFO, "Initialization BaseBrowserInit class");
-        Configuration.baseUrl = "https://rozetka.com.ua";
+        Configuration.baseUrl = TestEnvironment.globalEnvValue.toString();
         Configuration.timeout = 10000;
         Configuration.screenshots = true;
         Configuration.savePageSource = true;
