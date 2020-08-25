@@ -2,20 +2,20 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "rozetkaUiTests",
+    "name" : "clinone",
     "children" : [ {
-      "name" : "RozetkaSearchTest(Apple iPhone 11 Pro) [0]",
-      "uid" : "a545daeec1676485",
-      "parentUid" : "859189cedde0f6550e4c9e7c529f54f0",
+      "name" : "signInAsValidUser",
+      "uid" : "dc954a0eca11291b",
+      "parentUid" : "11b9a721cbbf2b5219d4b91a06c0dbfb",
       "status" : "passed",
       "time" : {
-        "start" : 1592818395893,
-        "stop" : 1592818463569,
-        "duration" : 67676
+        "start" : 1598363994220,
+        "stop" : 1598364011014,
+        "duration" : 16794
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "859189cedde0f6550e4c9e7c529f54f0"
+    "uid" : "11b9a721cbbf2b5219d4b91a06c0dbfb"
   } ]
 }

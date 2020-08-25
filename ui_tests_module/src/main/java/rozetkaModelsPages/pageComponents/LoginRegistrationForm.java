@@ -17,6 +17,7 @@ public class LoginRegistrationForm implements LoginRegistrationInterface {
     private SelenideElement logPassField = $("[id=\"auth_pass\"]");
     private SelenideElement regPassField = $("[formcontrolname=\"password\"]");
     private SelenideElement userNameField = $("[formcontrolname=\"name\"]");
+    private SelenideElement userSurnameField = $("[formcontrolname=\"surname\"]");
     private SelenideElement loginButton = $("[class=\"form__row auth-modal__form-bottom\"] button");
     private SelenideElement goToRegistrationButton = $("[class=\"form__row auth-modal__form-bottom\"] a");
     private SelenideElement submitRegLogButton = $("[class=\"modal__content\"] .button_color_green");
@@ -43,6 +44,7 @@ public class LoginRegistrationForm implements LoginRegistrationInterface {
     public void doRegistration(UserForTest userForTest) {
         goToRegistrationButton.click();
         submitRegLogButton.waitUntil(Condition.visible, 4000);
+        userSurnameField.sendKeys(userForTest.getUSER_SURNAME());
         userNameField.sendKeys(userForTest.getUSER_NAME());
         regEmailField.sendKeys(userForTest.getEMAIL());
         regPassField.sendKeys(userForTest.getPASSWORD());

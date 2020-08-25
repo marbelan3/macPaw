@@ -31,14 +31,53 @@ subprojects {
     }
 
 
-
     dependencies {
+        implementation "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2"
+        implementation "org.glassfish.jaxb:jaxb-runtime:2.3.2"
+        compileOnly "org.projectlombok:lombok:1.18.12"
+        compile group: 'com.github.bogdanlivadariu', name: 'gif-webdriver', version: '1.0.2'
+        compile group: 'com.google.guava', name: 'guava', version: '29.0-jre'
+        compile group: 'com.jayway.jsonpath', name: 'json-path', version: '2.4.0'
+        compile 'log4j:log4j:1.2.17'
+        compile 'org.slf4j:slf4j-api:1.7.5'
+        compile 'org.slf4j:slf4j-log4j12:1.7.5'
+        compile group: 'com.github.stephenc.monte', name: 'monte-screen-recorder', version: '0.7.7.0'
+        compile group: 'com.automation-remarks', name: 'video-recorder-junit', version: '1.+'
         compile(
                 "junit:junit:4.12",
                 "pl.pragmatists:JUnitParams:1.1.1",
                 "org.slf4j:slf4j-nop:1.7.22"
         )
     }
+//    modifyPom {
+//        project {
+//            name 'com.automation.remarks.video-recorder'
+//            packaging 'jar'
+//            description 'Video Recorder is a library that allows to record selenium tests'
+//            url 'https://github.com/SergeyPirogov/VideoRecorder'
+//
+//            scm {
+//                url 'scm:git@github.com:SergeyPirogov/VideoRecorder.git'
+//                connection 'scm:git@github.com:SergeyPirogov/VideoRecorder.git'
+//                developerConnection 'scm:git@github.com:SergeyPirogov/VideoRecorder.git'
+//            }
+//
+//            licenses {
+//                license {
+//                    name 'The Apache Software License, Version 2.0'
+//                    url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+//                    distribution 'repo'
+//                }
+//            }
+//
+//            developers {
+//                developer {
+//                    id 'SerhiiP'
+//                    name 'Sergey Pirogov'
+//                }
+//            }
+//        }
+//    }
 
     allure {
         autoconfigure = true
@@ -59,7 +98,11 @@ subprojects {
             testTask.systemProperties(
                     'allure.max.title.length': 250,
                     'taskname': System.properties['taskname'],
-                    'envDomain': System.properties['envDomain']
+                    'envDomain': System.properties['envDomain'],
+                    'browser': System.properties['browser'],
+                    'runType': System.properties['runType'],
+                    'video.enabled': System.properties['video.enabled'],
+
             )
             testTask.outputs.upToDateWhen { false }
     }

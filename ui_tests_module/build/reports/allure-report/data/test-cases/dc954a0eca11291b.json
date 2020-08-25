@@ -1,0 +1,783 @@
+{
+  "uid" : "dc954a0eca11291b",
+  "name" : "signInAsValidUser",
+  "fullName" : "clinone.ClinoneTest.signInAsValidUser",
+  "historyId" : "f31a56fb4d7176be6246e4025180c25d",
+  "time" : {
+    "start" : 1598363994220,
+    "stop" : 1598364011014,
+    "duration" : 16794
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "deleteAllSelenoidVideo",
+      "time" : {
+        "start" : 1598363994223,
+        "stop" : 1598363994246,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "getListOfSelenoidVideoSessions",
+        "time" : {
+          "start" : 1598363994224,
+          "stop" : 1598363994246,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "acceptAlertIfExist",
+      "time" : {
+        "start" : 1598363996537,
+        "stop" : 1598363996581,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "acceptAlertIfExist",
+      "time" : {
+        "start" : 1598363998487,
+        "stop" : 1598363998498,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "captureCurrentUrl",
+      "time" : {
+        "start" : 1598363998525,
+        "stop" : 1598363998530,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://test1.clinone.com/account/login"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "$(open) https://test1.clinone.com/",
+      "time" : {
+        "start" : 1598363994344,
+        "stop" : 1598363998531,
+        "duration" : 4187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "generateRandomTempMailEmail",
+      "time" : {
+        "start" : 1598363999651,
+        "stop" : 1598363999654,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "getRandomTempMailDomain",
+        "time" : {
+          "start" : 1598363999654,
+          "stop" : 1598363999654,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "paramNameValue",
+      "time" : {
+        "start" : 1598363999655,
+        "stop" : 1598363999655,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "argumentName",
+        "value" : "UserForTest : \nEMAIL = jameswilliams_45240@mailsac.com \nPASSWORD = 3UGuHnJ0ZV32940 \nUSER_NAME = Евгений \nUSER_SURNAME = Павлюк"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "isLoadedSignIn",
+      "time" : {
+        "start" : 1598363999735,
+        "stop" : 1598363999888,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$([id=\"login\"]) wait until([visible, 10000])",
+        "time" : {
+          "start" : 1598363999738,
+          "stop" : 1598363999888,
+          "duration" : 150
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "doLogin",
+      "time" : {
+        "start" : 1598363999888,
+        "stop" : 1598364003474,
+        "duration" : 3586
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fillUserLoginEmail",
+        "time" : {
+          "start" : 1598363999888,
+          "stop" : 1598364000010,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "generateRandomTempMailEmail",
+          "time" : {
+            "start" : 1598363999888,
+            "stop" : 1598363999888,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "getRandomTempMailDomain",
+            "time" : {
+              "start" : 1598363999888,
+              "stop" : 1598363999888,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0,
+            "hasContent" : false,
+            "stepsCount" : 0
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 1
+        }, {
+          "name" : "$([id=\"UserName\"]) send keys(marbelan3@gmail.com)",
+          "time" : {
+            "start" : 1598363999889,
+            "stop" : 1598364000010,
+            "duration" : 121
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "UserForTest{EMAIL='jameswilliams_45240@mailsac.com', PASSWORD='3UGuHnJ0ZV32940', USER_NAME='Евгений', USER_SURNAME='Павлюк'}"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 3
+      }, {
+        "name" : "pressNextBtn",
+        "time" : {
+          "start" : 1598364000010,
+          "stop" : 1598364000147,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "pressBtnByText",
+          "time" : {
+            "start" : 1598364000025,
+            "stop" : 1598364000147,
+            "duration" : 122
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(By.xpath: //*[contains(text(), 'Next')].filter(visible)[0]) click()",
+            "time" : {
+              "start" : 1598364000027,
+              "stop" : 1598364000147,
+              "duration" : 120
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0,
+            "hasContent" : false,
+            "stepsCount" : 0
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "text",
+            "value" : "Next"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 1
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "btnText",
+          "value" : "Next"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 2
+      }, {
+        "name" : "fillUserLoginPassword",
+        "time" : {
+          "start" : 1598364000148,
+          "stop" : 1598364001260,
+          "duration" : 1112
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "generateRandomTempMailEmail",
+          "time" : {
+            "start" : 1598364000148,
+            "stop" : 1598364000148,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "getRandomTempMailDomain",
+            "time" : {
+              "start" : 1598364000148,
+              "stop" : 1598364000148,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0,
+            "hasContent" : false,
+            "stepsCount" : 0
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 1
+        }, {
+          "name" : "$([id=\"Password\"]) send keys(Marbels1988)",
+          "time" : {
+            "start" : 1598364000148,
+            "stop" : 1598364001260,
+            "duration" : 1112
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "UserForTest{EMAIL='jameswilliams_45240@mailsac.com', PASSWORD='3UGuHnJ0ZV32940', USER_NAME='Евгений', USER_SURNAME='Павлюк'}"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 3
+      }, {
+        "name" : "pressNextBtn",
+        "time" : {
+          "start" : 1598364001260,
+          "stop" : 1598364003474,
+          "duration" : 2214
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "pressBtnByText",
+          "time" : {
+            "start" : 1598364001260,
+            "stop" : 1598364003474,
+            "duration" : 2214
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(By.xpath: //*[contains(text(), 'Sign in')].filter(visible)[0]) click()",
+            "time" : {
+              "start" : 1598364001261,
+              "stop" : 1598364003474,
+              "duration" : 2213
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0,
+            "hasContent" : false,
+            "stepsCount" : 0
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "text",
+            "value" : "Sign in"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 1
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "btnText",
+          "value" : "Sign in"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 2
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "UserForTest{EMAIL='jameswilliams_45240@mailsac.com', PASSWORD='3UGuHnJ0ZV32940', USER_NAME='Евгений', USER_SURNAME='Павлюк'}"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 14
+    }, {
+      "name" : "pressBtnByText",
+      "time" : {
+        "start" : 1598364003476,
+        "stop" : 1598364003973,
+        "duration" : 497
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: //*[contains(text(), 'Accept')].filter(visible)[0]) click()",
+        "time" : {
+          "start" : 1598364003477,
+          "stop" : 1598364003973,
+          "duration" : 496
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Accept"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "$([class=\"header-avatar\"]) wait until([visible, 2000])",
+      "time" : {
+        "start" : 1598364003973,
+        "stop" : 1598364004016,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$([class=\"header-avatar\"]) click()",
+      "time" : {
+        "start" : 1598364004017,
+        "stop" : 1598364004087,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$([class=\"dropdown-menu\"].findBy(text 'Approvals')) wait until([visible, 20000])",
+      "time" : {
+        "start" : 1598364004087,
+        "stop" : 1598364004551,
+        "duration" : 464
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$([class=\"dropdown-menu\"].findBy(text 'Approvals')) $$(li)",
+      "time" : {
+        "start" : 1598364004552,
+        "stop" : 1598364004552,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$([class=\"dropdown-menu\"].findBy(text 'Approvals')) find elements(By.cssSelector: li)",
+      "time" : {
+        "start" : 1598364004553,
+        "stop" : 1598364004639,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$($$(8 elements)[0]) get text()",
+      "time" : {
+        "start" : 1598364004640,
+        "stop" : 1598364004657,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$($$(8 elements)[1]) get text()",
+      "time" : {
+        "start" : 1598364004658,
+        "stop" : 1598364004675,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$($$(8 elements)[2]) get text()",
+      "time" : {
+        "start" : 1598364004676,
+        "stop" : 1598364004711,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$($$(8 elements)[3]) get text()",
+      "time" : {
+        "start" : 1598364004712,
+        "stop" : 1598364004734,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$($$(8 elements)[4]) get text()",
+      "time" : {
+        "start" : 1598364004736,
+        "stop" : 1598364004751,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$($$(8 elements)[5]) get text()",
+      "time" : {
+        "start" : 1598364004752,
+        "stop" : 1598364004773,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$($$(8 elements)[6]) get text()",
+      "time" : {
+        "start" : 1598364004773,
+        "stop" : 1598364004796,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "$($$(8 elements)[7]) get text()",
+      "time" : {
+        "start" : 1598364004797,
+        "stop" : 1598364004819,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "pressBtnByText",
+      "time" : {
+        "start" : 1598364004848,
+        "stop" : 1598364006261,
+        "duration" : 1413
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: //*[contains(text(), 'Approvals')].filter(visible)[0]) click()",
+        "time" : {
+          "start" : 1598364004849,
+          "stop" : 1598364006261,
+          "duration" : 1412
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Approvals"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "attachAllureVideo",
+      "time" : {
+        "start" : 1598364006262,
+        "stop" : 1598364010942,
+        "duration" : 4680
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "getSelenoidVideo",
+        "time" : {
+          "start" : 1598364006262,
+          "stop" : 1598364010932,
+          "duration" : 4670
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "http://194.44.160.2:4888/video/d9956321bf207d14fe54b2be3f3d8ce9.mp4"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "name" : "Video : null",
+        "type" : "video/mp4",
+        "size" : 0
+      } ],
+      "parameters" : [ {
+        "name" : "sessionId",
+        "value" : "d9956321bf207d14fe54b2be3f3d8ce9"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "34e40012d31520ff",
+      "name" : "Log for test",
+      "source" : "34e40012d31520ff.html",
+      "type" : "text/html",
+      "size" : 2574
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 45
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "clinone"
+  }, {
+    "name" : "testClass",
+    "value" : "clinone.ClinoneTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "signInAsValidUser"
+  }, {
+    "name" : "suite",
+    "value" : "clinone.ClinoneTest"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-7M766IE"
+  }, {
+    "name" : "thread",
+    "value" : "3216@WINDOWS-7M766IE.chrome : Test worker(14)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc954a0eca11291b.json",
+  "parameterValues" : [ ]
+}

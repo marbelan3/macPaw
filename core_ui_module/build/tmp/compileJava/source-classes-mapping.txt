@@ -1,0 +1,84 @@
+browserConfiguration/WebDriverFactory.java
+ browserConfiguration.WebDriverFactory
+browserConfiguration/help/AlertPopup.java
+ browserConfiguration.help.AlertPopup
+utils/LongWait.java
+ utils.LongWait
+api/BaseRequestResponseSpecifications.java
+ api.BaseRequestResponseSpecifications
+helpers/PriceHelper.java
+ helpers.PriceHelper
+mailSac/mailResp/MailSacResponse.java
+ mailSac.mailResp.MailSacResponse
+browserConfiguration/browsers/ChromeBrowser.java
+ browserConfiguration.browsers.ChromeBrowser
+browserConfiguration/BaseBrowserInit.java
+ browserConfiguration.BaseBrowserInit
+mailSac/mailResp/ToItem.java
+ mailSac.mailResp.ToItem
+video/VideoRecorder.java
+ video.VideoRecorder
+envirnoment/TestURL.java
+ envirnoment.TestURL
+mailSac/mailResp/FromItem.java
+ mailSac.mailResp.FromItem
+browserConfiguration/EnvBrowser.java
+ browserConfiguration.EnvBrowser
+browserConfiguration/browsers/SafariBrowser.java
+ browserConfiguration.browsers.SafariBrowser
+browserConfiguration/RunType.java
+ browserConfiguration.RunType
+mailSac/MailSacAction.java
+ mailSac.MailSacAction
+helpers/UserForTest.java
+ helpers.UserForTest
+browserConfiguration/browsers/FireFoxBrowser.java
+ browserConfiguration.browsers.FireFoxBrowser
+rules/RetryRule.java
+ rules.RetryRule
+ rules.RetryRule$1
+helpers/ReportWatcher.java
+ helpers.ReportWatcher
+browserConfiguration/help/ConfigurationBrowser.java
+ browserConfiguration.help.ConfigurationBrowser
+helpers/AllureUIUtil.java
+ helpers.AllureUIUtil
+helpers/RequiredAssertMessagesByLanguage.java
+ helpers.RequiredAssertMessagesByLanguage
+helpers/RemoveUserByRestAssured.java
+ helpers.BaseRozetkaAction
+ helpers.RemoveUserAction
+ helpers.RemoveUserByRestAssured
+mailSac/BaseMailSacData.java
+ mailSac.BaseMailSacData
+listeners/CustomEventListener.java
+ listeners.CustomEventListener
+log/LogsConsole.java
+ log.LogsConsole
+envirnoment/URL.java
+ envirnoment.URL
+helpers/HtmlReport.java
+ helpers.HtmlReport
+helpers/AllureSelenide.java
+ helpers.AllureSelenide
+helpers/ProductToTest.java
+ helpers.ProductToTest
+browserConfiguration/browsers/EdgeBrowser.java
+ browserConfiguration.browsers.EdgeBrowser
+browserConfiguration/Browsers.java
+ browserConfiguration.Browsers
+ browserConfiguration.Browsers$1
+ browserConfiguration.Browsers$2
+ browserConfiguration.Browsers$3
+mappers/CsvMapper.java
+ mappers.CsvMapper
+helpers/CookieHelper.java
+ helpers.CookieHelper
+video/SpecializedScreenRecorder.java
+ video.SpecializedScreenRecorder
+browserConfiguration/browsers/SelenoidRemote.java
+ browserConfiguration.browsers.SelenoidRemote
+helpers/RandomData.java
+ helpers.RandomData
+mappers/BaseMapper.java
+ mappers.BaseMapper

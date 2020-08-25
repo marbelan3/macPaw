@@ -3,7 +3,11 @@ dependencies {
 }
 
 task rozetka(type: Test) {
-
     include('rozetkaUiTests/RozetkaUi.class')
+    maxParallelForks = 2
+}
+
+task clinone(type: Test) {
+    include('clinone/ClinoneTest.class')
     maxParallelForks = 2
 }

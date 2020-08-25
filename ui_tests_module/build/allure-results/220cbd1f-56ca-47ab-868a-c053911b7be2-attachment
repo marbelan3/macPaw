@@ -1,0 +1,153 @@
+<html>
+<head>
+<style type="text/css">
+table, th, td {
+font-family: Consalas;
+font-size: 16px;
+color: #383737;
+border: 1px solid #383737;
+border-collapse: collapse;
+}
+th, td {
+padding: 3px 10px 3px 10px;
+}
+</style>
+</head>
+<body>
+<table>
+<tbody>
+<tr>
+<th>Element</th>
+<th>Subject</th>
+<th>Status</th>
+<th>ms</th>
+</tr>
+<tr style="background:rgba(255, 145, 0, 0.5);">
+<td>open</td>
+<td>https://test1.clinone.com/</td>
+<td>PASS</td>
+<td>4187</td>
+</tr>
+<tr>
+<td>[id="login"]</td>
+<td>wait until([visible, 10000])</td>
+<td>PASS</td>
+<td>149</td>
+</tr>
+<tr>
+<td>[id="UserName"]</td>
+<td>send keys(marbelan3@gmail.com)</td>
+<td>PASS</td>
+<td>121</td>
+</tr>
+<tr>
+<td>By.xpath: //*[contains(text(), 'Next')].filter(visible)[0]</td>
+<td>click()</td>
+<td>PASS</td>
+<td>120</td>
+</tr>
+<tr>
+<td>[id="Password"]</td>
+<td>send keys(Marbels1988)</td>
+<td>PASS</td>
+<td>1111</td>
+</tr>
+<tr style="background:rgba(255, 145, 0, 0.5);">
+<td>By.xpath: //*[contains(text(), 'Sign in')].filter(visible)[0]</td>
+<td>click()</td>
+<td>PASS</td>
+<td>2213</td>
+</tr>
+<tr>
+<td>By.xpath: //*[contains(text(), 'Accept')].filter(visible)[0]</td>
+<td>click()</td>
+<td>PASS</td>
+<td>496</td>
+</tr>
+<tr>
+<td>[class="header-avatar"]</td>
+<td>wait until([visible, 2000])</td>
+<td>PASS</td>
+<td>43</td>
+</tr>
+<tr>
+<td>[class="header-avatar"]</td>
+<td>click()</td>
+<td>PASS</td>
+<td>70</td>
+</tr>
+<tr>
+<td>[class="dropdown-menu"].findBy(text 'Approvals')</td>
+<td>wait until([visible, 20000])</td>
+<td>PASS</td>
+<td>464</td>
+</tr>
+<tr>
+<td>[class="dropdown-menu"].findBy(text 'Approvals')</td>
+<td>$$(li)</td>
+<td>PASS</td>
+<td>0</td>
+</tr>
+<tr>
+<td>[class="dropdown-menu"].findBy(text 'Approvals')</td>
+<td>find elements(By.cssSelector: li)</td>
+<td>PASS</td>
+<td>86</td>
+</tr>
+<tr>
+<td>$$(8 elements)[0]</td>
+<td>get text()</td>
+<td>PASS</td>
+<td>17</td>
+</tr>
+<tr>
+<td>$$(8 elements)[1]</td>
+<td>get text()</td>
+<td>PASS</td>
+<td>17</td>
+</tr>
+<tr>
+<td>$$(8 elements)[2]</td>
+<td>get text()</td>
+<td>PASS</td>
+<td>35</td>
+</tr>
+<tr>
+<td>$$(8 elements)[3]</td>
+<td>get text()</td>
+<td>PASS</td>
+<td>22</td>
+</tr>
+<tr>
+<td>$$(8 elements)[4]</td>
+<td>get text()</td>
+<td>PASS</td>
+<td>15</td>
+</tr>
+<tr>
+<td>$$(8 elements)[5]</td>
+<td>get text()</td>
+<td>PASS</td>
+<td>21</td>
+</tr>
+<tr>
+<td>$$(8 elements)[6]</td>
+<td>get text()</td>
+<td>PASS</td>
+<td>23</td>
+</tr>
+<tr>
+<td>$$(8 elements)[7]</td>
+<td>get text()</td>
+<td>PASS</td>
+<td>22</td>
+</tr>
+<tr>
+<td>By.xpath: //*[contains(text(), 'Approvals')].filter(visible)[0]</td>
+<td>click()</td>
+<td>PASS</td>
+<td>1412</td>
+</tr>
+</tbody>
+</table>
+</body></html>

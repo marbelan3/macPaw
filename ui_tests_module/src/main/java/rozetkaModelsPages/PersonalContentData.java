@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class PersonalContentData implements PopUpInterface {
 
     public SearchForm searchForm = new SearchForm();
-    private SelenideElement personalContentBlock = $("[id=\"personal_information_content\"]");
+    private SelenideElement personalContentBlock = $("[class=\"content cabinet-content\"]");
     private SelenideElement classWithRequiredAssertMessage = $("[class=\"pos-fix sprite-side message code1\"]");
 
 

@@ -1,8 +1,8 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "c11d6bf9f699a76923e1573021017d4f",
-    "name" : "rozetkaUiTests.RozetkaUi",
+    "uid" : "580857ba3d5b97375f300702f6b13d22",
+    "name" : "clinone.ClinoneTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

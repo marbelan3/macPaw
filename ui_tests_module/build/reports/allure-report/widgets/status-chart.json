@@ -1,10 +1,10 @@
 [ {
-  "uid" : "a545daeec1676485",
-  "name" : "RozetkaSearchTest(Apple iPhone 11 Pro) [0]",
+  "uid" : "dc954a0eca11291b",
+  "name" : "signInAsValidUser",
   "time" : {
-    "start" : 1592818395893,
-    "stop" : 1592818463569,
-    "duration" : 67676
+    "start" : 1598363994220,
+    "stop" : 1598364011014,
+    "duration" : 16794
   },
   "status" : "passed",
   "severity" : "normal"

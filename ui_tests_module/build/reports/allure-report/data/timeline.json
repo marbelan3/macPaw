@@ -2,24 +2,24 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "DESKTOP-A4N47S8",
+    "name" : "WINDOWS-7M766IE",
     "children" : [ {
-      "name" : "13428@DESKTOP-A4N47S8.Test worker(11)",
+      "name" : "3216@WINDOWS-7M766IE.chrome : Test worker(14)",
       "children" : [ {
-        "name" : "RozetkaSearchTest(Apple iPhone 11 Pro) [0]",
-        "uid" : "a545daeec1676485",
-        "parentUid" : "539ef366405ed4be7125be63d900ef9b",
+        "name" : "signInAsValidUser",
+        "uid" : "dc954a0eca11291b",
+        "parentUid" : "4d45b3aa6e6443e285d7e94ac75b6c38",
         "status" : "passed",
         "time" : {
-          "start" : 1592818395893,
-          "stop" : 1592818463569,
-          "duration" : 67676
+          "start" : 1598363994220,
+          "stop" : 1598364011014,
+          "duration" : 16794
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "539ef366405ed4be7125be63d900ef9b"
+      "uid" : "4d45b3aa6e6443e285d7e94ac75b6c38"
     } ],
-    "uid" : "6301398e13e7e87d0e355b1f74ed242a"
+    "uid" : "92a26a1b8c1585aaa1276b2472ef0087"
   } ]
 }

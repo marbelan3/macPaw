@@ -19,7 +19,7 @@ public class CookieHelper {
         this.sections_test = getCookie("sections_test");
         this.login = getCookie("login");
         this.sid = getCookie("sid");
-        this.gauid = getCookie("gauid");
+//        this.gauid = getCookie("gauid");
     }
 
     private String ho_sid;
@@ -117,8 +117,8 @@ public class CookieHelper {
                 Objects.equals(ab_xl_uid, that.ab_xl_uid) &&
                 Objects.equals(sections_test, that.sections_test) &&
                 Objects.equals(login, that.login) &&
-                Objects.equals(sid, that.sid) &&
-                Objects.equals(gauid, that.gauid);
+                Objects.equals(sid, that.sid); /*&&*/
+//                Objects.equals(gauid, that.gauid);
     }
 
     @Override
@@ -137,7 +137,7 @@ public class CookieHelper {
                 ", sections_test='" + sections_test + '\'' +
                 ", login='" + login + '\'' +
                 ", sid='" + sid + '\'' +
-                ", gauid='" + gauid + '\'' +
+//                ", gauid='" + gauid + '\'' +
                 '}';
     }
 

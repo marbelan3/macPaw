@@ -28,8 +28,8 @@ public class ReportWatcher extends TestWatcher {
     @Override
     protected void succeeded(Description description) {
         if (this.onSucceededTest) {
-            AllureUIUtil.attachScreenshot();
-            AllureUIUtil.attachPageSources();
+//            AllureUIUtil.attachScreenshot();
+//            AllureUIUtil.attachPageSources();
         }
         this.report.finish();
     }
